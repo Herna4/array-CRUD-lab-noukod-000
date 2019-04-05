@@ -11,7 +11,7 @@ end
 def add_element_to_end_of_array(array, element)
   my_array = ["papy", "Josh", "mother", "Elsy"]
   
-  Elsy.my_array
+  my_array.unshift("ELsy")
   puts my_array.inspect
   
 end
